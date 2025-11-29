@@ -10,6 +10,12 @@ class Card:
         self.rank = rank
         self.suit = suit
     
+    def rank(self):
+        return self.rank
+    
+    def suit(self):
+        return self.suit
+    
     def __str__(self):
         rep = self.rank + self.suit
         return rep
